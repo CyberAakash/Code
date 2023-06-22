@@ -48,6 +48,7 @@
 #include<stdio.h>
 #include<stdlib.h>
 #include<string.h>
+#include <ctype.h>
 
 int main() {
     char str[] = "John : oh God ! I cannot believe !";
@@ -71,6 +72,9 @@ int main() {
         if(str[i] == '!' || str[i] == ' ' || str[i] == ':') {
             continue;
         } else {
+            if(isupper(str[i])) {
+                stack[k] = toupper(stack[k]);
+            }
             str[i] = stack[k++];
         }
     }
