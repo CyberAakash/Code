@@ -32,6 +32,17 @@ int main() {
         }
         printf("\n");
     }
+    for (int i = n-1; i >= 0; i--) {
+        
+        printf("%*s",n-i," ");
+        for (int k = 1; k <= i+1; k++) {
+            if(a > 9) {
+                a = 1;
+            }
+            printf("%d ", a++);
+        }
+        printf("\n");
+    }
 
     return 0;
 }
