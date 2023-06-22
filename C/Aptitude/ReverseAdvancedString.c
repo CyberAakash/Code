@@ -4,29 +4,67 @@
 //  Evei : le Bto ! N nacIdo Ghonhoj !
 
 
+// #include<stdio.h>
+// #include<stdlib.h>
+// #include<string.h>
+
+// int main() {
+
+//     char str[] = {"John : oh God ! I cannot believe !"};
+
+//     int len = strlen(str);
+//     // printf("%d\n", len);
+//     char stack[] = "";
+
+//     int j = 0;
+//     for(int i = len-1; i >= 0; i--) {
+//         if(str[i] == '!' || str[i] == ' ' || str[i] == ':') {
+//             continue; 
+//         } else {
+//             stack[j++] = str[i]; 
+//         }
+//     }
+//     stack[j] = '\0';
+
+//     printf("%s", stack);
+
+//     int k = 0;
+//     for(int i = 0; i < len; i++) {
+//         if(str[i] == '!' || str[i] == ' ' || str[i] == ':') {
+//             continue;
+//         } else {
+//             str[i] = stack[k++];
+//         }
+//     }
+
+//     printf("Changed String : %s", str);
+
+    
+
+//     return 0;
+// }
+
+
 #include<stdio.h>
 #include<stdlib.h>
 #include<string.h>
 
 int main() {
-
-    char str[] = {"John : oh God ! I cannot believe !"};
-
+    char str[] = "John : oh God ! I cannot believe !";
     int len = strlen(str);
-    // printf("%d\n", len);
-    char stack[] = "";
+    char stack[len + 1];  // Add +1 to accommodate the null character
 
     int j = 0;
-    for(int i = len-1; i >= 0; i--) {
+    for(int i = len - 1; i >= 0; i--) {
         if(str[i] == '!' || str[i] == ' ' || str[i] == ':') {
-            continue; 
+            continue;
         } else {
-            stack[j++] = str[i]; 
+            stack[j++] = str[i];
         }
     }
     stack[j] = '\0';
 
-    printf("%s", stack);
+    printf("Reversed String: %s\n", stack);
 
     int k = 0;
     for(int i = 0; i < len; i++) {
@@ -37,9 +75,7 @@ int main() {
         }
     }
 
-    printf("Changed String : %s", str);
-
-    
+    printf("Changed String: %s\n", str);
 
     return 0;
 }
