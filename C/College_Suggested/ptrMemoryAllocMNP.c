@@ -22,3 +22,14 @@ int main() {
 
     return 0;
 }
+
+
+//Example
+
+//int a[6][7][8];
+///Assume you got data for this a.
+
+//int ***ptr = a;
+
+//value using a is a[5][2][3]
+// " *(*(*(ptr+5)+2)+3) "
