@@ -46,3 +46,58 @@ int main() {
 
     return 0;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// #include <stdio.h>
+// #include <stdlib.h>
+
+// void printPattern(int n) {
+//     int size = 2 * n - 1;
+//     int start = n, end = n;
+//     int i, j;
+
+//     for (i = 1; i <= size; i++) {
+//         for (j = 1; j <= size; j++) {
+//             if (j >= start && j <= end) {
+//                 printf("%3d ", abs(n - j) + 1);
+//             } else {
+//                 printf("    ");
+//             }
+//         }
+//         printf("\n");
+
+//         if (i < n) {
+//             start--;
+//             end++;
+//         } else {
+//             start++;
+//             end--;
+//         }
+//     }
+// }
+
+// int main() {
+//     int n = 4;
+
+//     printPattern(n);
+
+//     return 0;
+// }
