@@ -4,13 +4,13 @@
 void number_triangle(int n) {
     int i, j;
         for (j = n; j > 0; j--) {
-            printf("   ");
+            printf("  ");
         }
         printf("0\n");
     for (i = n; i >= 1; i--) {
         // Print leading spaces
         for (j = 1; j <= i - 1; j++) {
-            printf("   ");
+            printf("  ");
         }
 
         // Print numbers in descending order

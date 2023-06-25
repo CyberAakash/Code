@@ -18,7 +18,8 @@ int main() {
     int n;
     scanf("%d",&n);
     int rev = findReverse(n);
-    int n_v1 += rev;
+    int n_v1 = 0;
+    n_v1 += rev;
     int rev_v1 = findReverse(n_v1);
     int cnt = 0;
     int flag = 0;
@@ -30,6 +31,7 @@ int main() {
         n_v1 += rev_v1;
         rev_v1 = findReverse(n_v1);
     } else {
+        if(cnt > 5) flag = 0;
         flag = 1;
     }
     }

@@ -20,7 +20,7 @@ int main() {
 
     int a = 1;
 
-    int size = n*2-1;
+    // int size = n*2-1;
     for (int i = 0; i < n-1; i++) {
         
         printf("%*s",n-i," ");

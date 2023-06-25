@@ -4,8 +4,11 @@
 
 int main() {
 
-    printf("%*c",10,' ');
-    printf("Hello");
+    printf("Hello\n");
+    printf("%*c",5,' ');
+    printf("Hello\n");
+    printf("%*s",10," ");
+    printf("Hello\n");
 
     return 0;
 }
