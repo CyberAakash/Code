@@ -1,4 +1,4 @@
-// Input: rhdt:246, ghftd:1246 
+// Input: rhdt:246,ghftd:1246 
 // Output: trhd, ftdgh 
 // Explanation: 
 // Here, every string (rhdt : 1246) is associated with a number, separated by semicolon, if sum of 
@@ -11,99 +11,10 @@
 
 
 
-
-
-// #include <stdio.h>
-// #include <string.h>
-// #include <stdlib.h>
-// #define MAX 100
-
-// // void rotateLeft2(char* start, char* end, int l) {
-
-// // }
-
-// // void rotateRight1(char* start, char* end, int l) {
-
-// // }
-
-// int splitColon(int start,int end, char* c) {
-//     int i;
-//     for(i = start; i <= end; i++) {
-//         if(c[i] == ':') {
-//             break;
-//         }
-//     }
-//     return i;
-// }
-
-// int main() {
-//     char str[MAX];\
-//     printf("Enter the  String :  ");
-//     fgets(str, sizeof(str), stdin);
-//     printf("\nThe given String is : %s", str);
-//     int len = strlen(str)-1 ; // to remove newline character from end
-//     printf("\nLength of string : %d", len);
-
-//     int start = 0,end;
-//     int i;
-
-//     for(i = 0; i <= len; i++) {
-//         if(str[i] == '\0' || str[i] == ',') {
-//             end = i-1;
-//             int x = splitColon(start, end, str);
-//             printf("Colon : %d", x);
-//             int sum = 0;
-//             for(int j = x+1; j <= end; j++) {
-//                 sum += (str[j] - '0')*(str[j] - '0');
-//             }
-//             if(sum % 2 == 0) {
-//                 printf("\nRightShift");
-//             } else {
-//                 printf("\nLeftShift");
-//             }
-
-//             start = i+1;
-//         }
-//     }
-        
-
-
-
-//     return 0;
-// }
-
-
-
 #include <stdio.h>
 #include <string.h>
 #include <stdlib.h>
 #define MAX 100
-
-// void rotateLeft2(char* sub_str) {
-//     int l = strlen(sub_str);
-//     char out[l];
-//     char temp1 = sub_str[0];
-//     char temp2 = sub_str[1];
-//     for (int i = 0; i < l - 2; i++) {
-//         out[i] = sub_str[i + 2];
-//     }
-//     out[-1] = temp1;
-//     out[0] = temp2;
-
-//     printf("\n%s ",out);
-// }
-
-// void rotateRight1(char* sub_str) {
-//     int l = strlen(sub_str);
-//     char out[l];
-//     char temp = sub_str[0];
-//     for (int i = l - 1; i > 0; i--) {
-//         out[i] = sub_str[i - 1];
-//     }
-//     out[0] = temp;
-
-//     printf("\n%s ",out);
-// }
 
 void rotateLeft2(char* token, int l) {
     char out[l+1];
