@@ -27,7 +27,7 @@ void rotateLeft2(char* token, int l) {
     out[i++] = temp1;
     out[i++] = temp2;
     out[i]='\0';
-    printf("\n%s ",out);
+    printf("%s ",out);
 }
 
 void rotateRight1(char* token, int l) {
@@ -38,7 +38,7 @@ void rotateRight1(char* token, int l) {
     }
     out[0] = temp;
     out[l]='\0';
-    printf("\n%s ",out);
+    printf("%s ",out);
 }
 
 int splitColon(int end, char* c) {
@@ -62,19 +62,19 @@ int main() {
     char* token = strtok(str, ",");
     while(token != NULL) {
         int l = strlen(token);
-        printf("\n%s %d\n", token, l);
+        printf("\nString : %s , Length: %d\n", token, l);
         // char* sub_token = strtok(token, ":");
         int index = splitColon(l, token);
-        printf("\nIndex :  %d", index);
+        printf("\nColon Index :  %d\n", index);
         int sum = 0;
         for(int i = index+1; i < l; i++) {
             sum += (token[i] - '0')*(token[i] - '0');
         }
         if(sum % 2 == 0 && sum != 0) {
-            printf("\nRightShift");
+            printf("\nRightShift :  ");
             rotateRight1(token, index);
         } else if(sum % 2 != 0 && sum != 0) {
-            printf("\nLeftShift");
+            printf("\nLeftShift :  ");
             rotateLeft2(token, index);
         }
 
