@@ -79,29 +79,54 @@
 #include <stdlib.h>
 #define MAX 100
 
-void rotateLeft2(char* sub_str) {
-    int l = strlen(sub_str);
-    char out[l];
-    char temp1 = sub_str[0];
-    char temp2 = sub_str[1];
-    for (int i = 0; i < l - 2; i++) {
-        out[i] = sub_str[i + 2];
-    }
-    out[-1] = temp1;
-    out[0] = temp2;
+// void rotateLeft2(char* sub_str) {
+//     int l = strlen(sub_str);
+//     char out[l];
+//     char temp1 = sub_str[0];
+//     char temp2 = sub_str[1];
+//     for (int i = 0; i < l - 2; i++) {
+//         out[i] = sub_str[i + 2];
+//     }
+//     out[-1] = temp1;
+//     out[0] = temp2;
 
+//     printf("\n%s ",out);
+// }
+
+// void rotateRight1(char* sub_str) {
+//     int l = strlen(sub_str);
+//     char out[l];
+//     char temp = sub_str[0];
+//     for (int i = l - 1; i > 0; i--) {
+//         out[i] = sub_str[i - 1];
+//     }
+//     out[0] = temp;
+
+//     printf("\n%s ",out);
+// }
+
+void rotateLeft2(char* token, int l) {
+    char out[l+1];
+    char temp1 = token[0];
+    char temp2 = token[1];
+    int i;
+    for (i = 0; i < l - 2; i++) {
+        out[i] = token[i + 2];
+    }
+    out[i++] = temp1;
+    out[i++] = temp2;
+    out[i]='\0';
     printf("\n%s ",out);
 }
 
-void rotateRight1(char* sub_str) {
-    int l = strlen(sub_str);
-    char out[l];
-    char temp = sub_str[0];
+void rotateRight1(char* token, int l) {
+    char out[l+1];
+    char temp = token[l-1];
     for (int i = l - 1; i > 0; i--) {
-        out[i] = sub_str[i - 1];
+        out[i] = token[i - 1];
     }
     out[0] = temp;
-
+    out[l]='\0';
     printf("\n%s ",out);
 }
 
@@ -121,35 +146,25 @@ int main() {
     fgets(str, sizeof(str), stdin);
     printf("\nThe given String is: %s", str);
     int len = strlen(str) - 1; // to remove newline character from end
-    printf("\nLength of string: %d", len);
+    // printf("\nLength of string: %d", len);
 
     char* token = strtok(str, ",");
     while(token != NULL) {
         int l = strlen(token);
-        printf("\n%s", token);
-        char* sub_token = strtok(token, ":");
-        int cnt = 1;
-        char sub_str[l];
-        while(sub_token != NULL) {
-            int sub_len = strlen(sub_token);
-            int sum = 0;
-            if(cnt == 1) {
-                strcpy(sub_str,sub_token);
-                cnt++;
-            } else {
-                for(int i = 0; i < sub_len; i++) {
-                    sum += (sub_token[i] - '0')*(sub_token[i] - '0');
-                }
-            }
-            if(sum % 2 == 0 && sum != 0) {
-                printf("\nRightShift");
-                rotateRight1(sub_str);
-            } else if(sum % 2 != 0 && sum != 0) {
-                printf("\nLeftShift");
-                rotateRight1(sub_str);
-            }
-
-            sub_token = strtok(NULL, ",");
+        printf("\n%s %d\n", token, l);
+        // char* sub_token = strtok(token, ":");
+        int index = splitColon(l, token);
+        printf("\nIndex :  %d", index);
+        int sum = 0;
+        for(int i = index+1; i < l; i++) {
+            sum += (token[i] - '0')*(token[i] - '0');
+        }
+        if(sum % 2 == 0 && sum != 0) {
+            printf("\nRightShift");
+            rotateRight1(token, index);
+        } else if(sum % 2 != 0 && sum != 0) {
+            printf("\nLeftShift");
+            rotateLeft2(token, index);
         }
 
         token = strtok(NULL, ",");
@@ -158,3 +173,8 @@ int main() {
     
     return 0;
 }
+
+
+
+// Sample Input
+// rhdt:246,ghftd:1246
