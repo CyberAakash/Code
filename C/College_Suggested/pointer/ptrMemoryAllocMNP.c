@@ -9,7 +9,7 @@
 
 int main() {
 
-    int ***ptr
+    int ***ptr;
     int m,n,p;
 
     ptr = (int ***) malloc(m*sizeof(int**));
