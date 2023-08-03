@@ -1,0 +1,38 @@
+#include<stdio.h>
+#include<math.h>
+int main(){
+	int n,s,sum=0,d,i,t,cnt=0,p,q,r;
+	scanf("%d",&n);
+	s=n*n;
+	t=n;
+	printf("%d\n",s);
+	while(t>0){
+		i=t%10;
+		t=t/10;
+		cnt++;
+	}
+	if(cnt==1){
+		while(s>0){
+			d=s%10;
+			sum+=d;
+			s=s/10;
+		}
+		if(sum==n){
+			printf("Yes");
+		}
+		else{
+			printf("NO");
+		}
+	}
+	else{
+		p=pow(10,cnt);
+		q=s/p;
+		r=s%p;
+		if((q+r)==n){
+			printf("Yes");
+		}
+		else{
+			printf("NO");
+		}
+	}
+}
