@@ -1,16 +1,16 @@
-// #include <iostream>
-// #include <vector>
-// #include <algorithm>
+#include <iostream>
+#include <vector>
+#include <algorithm>
+using namespace std;
+int main() {
+    vector<int> nums = {1, 2, 3};
 
-// int main() {
-//     std::vector<int> nums = {1, 2, 3};
+    do {
+        for (int num : nums) {
+            cout << num << ' ';
+        }
+        cout << endl;
+    } while (std::next_permutation(nums.begin(), nums.end()));
 
-//     do {
-//         for (int num : nums) {
-//             std::cout << num << ' ';
-//         }
-//         std::cout << std::endl;
-//     } while (std::next_permutation(nums.begin(), nums.end()));
-
-//     return 0;
-// }
+    return 0;
+}
