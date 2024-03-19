@@ -23,6 +23,7 @@ Taxi-1 is allotted
 
 */
 import java.util.*;
+import Zoho.taxi_booking.Taxi;
 
 public class Booking {
     public static void bookTaxi(int customerID, char pickupPoint, char dropPoint, int pickupTime,

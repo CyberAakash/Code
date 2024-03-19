@@ -10,7 +10,7 @@ Output: 3
 A[0] + A[1] + A[2] = A[4] + A[5] + A[6]
 Input: A[] = {1, 2, 3}
 Output: -1
-4. In MS-Paint, when we take the brush to a pixel and click, the color of the region of that pixel is replaced with a new selected color. Following is the problem statement to do this task.
+4.(**) In MS-Paint, when we take the brush to a pixel and click, the color of the region of that pixel is replaced with a new selected color. Following is the problem statement to do this task.
 Given a 2D screen, location of a pixel in the screen and a color, replace color of the given pixel and all adjacent same colored pixels with the given color.
 Example:
 Input:
