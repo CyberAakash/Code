@@ -86,7 +86,7 @@ Rn ak
 Sample Output-
 P      P
  R    R 
-  O  O  
+  O  O   
    G   
   R  R  
  A    A 
