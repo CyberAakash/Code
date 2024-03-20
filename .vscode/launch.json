@@ -6,6 +6,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "StringXPattern",
+      "request": "launch",
+      "mainClass": "Zoho.newworld.StringXPattern",
+      "projectName": "Code_1e757cba"
+    },
+    {
+      "type": "java",
       "name": "RemoveDoopAppendNew",
       "request": "launch",
       "mainClass": "Zoho.newworld.RemoveDoopAppendNew",
