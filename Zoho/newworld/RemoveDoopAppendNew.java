@@ -7,8 +7,8 @@ public class RemoveDoopAppendNew {
     public static void main(String[] args) {
 
         // String str = "Java1234";
-        // String str = "Python1223";
-        String str = "aBuzZ9900";
+        String str = "Python1223";
+        // String str = "aBuzZ9900";
 
         StringBuilder sb = new StringBuilder(str);
 

@@ -62,7 +62,7 @@ Output: aBuzC9012
 (Replace the second ‘Z’ with ‘C’ as ‘a’ and ‘B’ are already there in the String. Replace with capital C as the letter to be replaced is capital Z. The second 9 turns out to be zero and the zero turns out to ‘1’ and the second zero turns out to ‘2’)
 7. Print whether the version is upgraded, downgraded or not changed according to the input given.
 example: Input : Version1 4.8.2 Version2 4.8.4 Output: upgraded, Input : Version1 4.0.2 Version2 4.8.4 Output: downgraded
-8. Q2. Print all possible subsets of the given array whose sum equal to given N.
+8.(*) Q2. Print all possible subsets of the given array whose sum equal to given N.
 example: Input: {1, 2, 3, 4, 5} N=6 Output: {1, 2, 3}, {1, 5}, {2, 4}
 9. Reverse the words in the given String1 from the first occurrence of String2 in String1 by maintaining white Spaces.
 example: String1 = Input: This is a test String only String2 = st Output: This is a only String test
