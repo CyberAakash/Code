@@ -6,6 +6,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "NCharSrtingPrint",
+      "request": "launch",
+      "mainClass": "Zoho.newworld.NCharSrtingPrint",
+      "projectName": "Code_1e757cba"
+    },
+    {
+      "type": "java",
       "name": "StringNCharPrint",
       "request": "launch",
       "mainClass": "Zoho.newworld.StringNCharPrint",
