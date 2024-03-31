@@ -2,7 +2,7 @@ package Zoho.newworld;
 
 public class ChocolateWrapper {
     public static void main(String[] args) {
-        int money = 40;
+        int money = 10;
         int price = 1;
         int wrappers = 3;
         int choco = 1;

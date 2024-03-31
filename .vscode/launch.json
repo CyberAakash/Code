@@ -6,6 +6,83 @@
   "configurations": [
     {
       "type": "java",
+      "name": "AlternatePositionStart",
+      "request": "launch",
+      "mainClass": "Zoho.newworld.AlternatePositionStart",
+      "projectName": "Code_1e757cba"
+    },
+    {
+      "type": "java",
+      "name": "AlternateSort",
+      "request": "launch",
+      "mainClass": "Zoho.newworld.AlternateSort",
+      "projectName": "Code_1e757cba"
+    },
+    {
+      "type": "java",
+      "name": "PrimeNumbers",
+      "request": "launch",
+      "mainClass": "Zoho.newworld.PrimeNumbers",
+      "projectName": "Code_1e757cba"
+    },
+    {
+      "type": "java",
+      "name": "CheckPrime",
+      "request": "launch",
+      "mainClass": "Zoho.newworld.CheckPrime",
+      "projectName": "Code_1e757cba"
+    },
+    {
+      "type": "java",
+      "name": "DolasNumber",
+      "request": "launch",
+      "mainClass": "Zoho.newworld.DolasNumber",
+      "projectName": "Code_1e757cba"
+    },
+    {
+      "type": "java",
+      "name": "CountPrimes",
+      "request": "launch",
+      "mainClass": "Zoho.newworld.CountPrimes",
+      "projectName": "Code_1e757cba"
+    },
+    {
+      "type": "java",
+      "name": "Frequency1toP",
+      "request": "launch",
+      "mainClass": "Zoho.newworld.Frequency1toP",
+      "projectName": "Code_1e757cba"
+    },
+    {
+      "type": "java",
+      "name": "Zigzag",
+      "request": "launch",
+      "mainClass": "Zoho.newworld.Zigzag",
+      "projectName": "Code_1e757cba"
+    },
+    {
+      "type": "java",
+      "name": "SubsetsEqualSum",
+      "request": "launch",
+      "mainClass": "Zoho.newworld.SubsetsEqualSum",
+      "projectName": "Code_1e757cba"
+    },
+    {
+      "type": "java",
+      "name": "BikeTrip",
+      "request": "launch",
+      "mainClass": "Zoho.newworld.BikeTrip",
+      "projectName": "Code_1e757cba"
+    },
+    {
+      "type": "java",
+      "name": "ChocolateWrapper",
+      "request": "launch",
+      "mainClass": "Zoho.newworld.ChocolateWrapper",
+      "projectName": "Code_1e757cba"
+    },
+    {
+      "type": "java",
       "name": "NCharSrtingPrint",
       "request": "launch",
       "mainClass": "Zoho.newworld.NCharSrtingPrint",
