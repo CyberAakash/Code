@@ -6,6 +6,20 @@
   "configurations": [
     {
       "type": "java",
+      "name": "TransactionalDatabase",
+      "request": "launch",
+      "mainClass": "Zoho.newworld.TransactionalDatabase",
+      "projectName": "Code_1e757cba"
+    },
+    {
+      "type": "java",
+      "name": "GIT",
+      "request": "launch",
+      "mainClass": "Zoho.newworld.GIT",
+      "projectName": "Code_1e757cba"
+    },
+    {
+      "type": "java",
       "name": "ReplaceRightMax",
       "request": "launch",
       "mainClass": "Zoho.newworld.ReplaceRightMax",
