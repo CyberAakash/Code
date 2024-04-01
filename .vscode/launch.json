@@ -6,6 +6,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Permutation",
+      "request": "launch",
+      "mainClass": "Zoho.newworld.Permutation",
+      "projectName": "Code_1e757cba"
+    },
+    {
+      "type": "java",
       "name": "TransactionalDatabase",
       "request": "launch",
       "mainClass": "Zoho.newworld.TransactionalDatabase",
