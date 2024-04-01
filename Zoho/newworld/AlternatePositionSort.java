@@ -3,7 +3,7 @@ package Zoho.newworld;
 import java.util.*;
 import java.io.*;
 
-public class AlternatePositionStart {
+public class AlternatePositionSort {
 
     // Method 1
     public static void main(String[] args) {
