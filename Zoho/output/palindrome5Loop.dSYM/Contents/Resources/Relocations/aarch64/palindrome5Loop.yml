@@ -1,0 +1,8 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/aakashvnthgmail.com/Documents/CyberAakash/Code/Zoho/output/palindrome5Loop'
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _findReverse, symObjAddr: 0x0, symBinAddr: 0x100003DC8, symSize: 0x70 }
+  - { offsetInCU: 0x41, offset: 0x41, size: 0x8, addend: 0x0, symName: _findReverse, symObjAddr: 0x0, symBinAddr: 0x100003DC8, symSize: 0x70 }
+  - { offsetInCU: 0xAF, offset: 0xAF, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x70, symBinAddr: 0x100003E38, symSize: 0x13C }
+...

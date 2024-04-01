@@ -6,6 +6,48 @@
   "configurations": [
     {
       "type": "java",
+      "name": "ReplaceRightMax",
+      "request": "launch",
+      "mainClass": "Zoho.newworld.ReplaceRightMax",
+      "projectName": "Code_1e757cba"
+    },
+    {
+      "type": "java",
+      "name": "RemoveDuplicates",
+      "request": "launch",
+      "mainClass": "Zoho.newworld.RemoveDuplicates",
+      "projectName": "Code_1e757cba"
+    },
+    {
+      "type": "java",
+      "name": "OddEvenSplit",
+      "request": "launch",
+      "mainClass": "Zoho.newworld.OddEvenSplit",
+      "projectName": "Code_1e757cba"
+    },
+    {
+      "type": "java",
+      "name": "Max3Product",
+      "request": "launch",
+      "mainClass": "Zoho.newworld.Max3Product",
+      "projectName": "Code_1e757cba"
+    },
+    {
+      "type": "java",
+      "name": "MatrixAdjacentReplace",
+      "request": "launch",
+      "mainClass": "Zoho.newworld.MatrixAdjacentReplace",
+      "projectName": "Code_1e757cba"
+    },
+    {
+      "type": "java",
+      "name": "EquilibriumIndex",
+      "request": "launch",
+      "mainClass": "Zoho.newworld.EquilibriumIndex",
+      "projectName": "Code_1e757cba"
+    },
+    {
+      "type": "java",
       "name": "AlternatePositionStart",
       "request": "launch",
       "mainClass": "Zoho.newworld.AlternatePositionStart",

@@ -10,7 +10,7 @@ public class NCharSrtingPrint {
         char c = str.charAt(0);
         System.out.print(c);
         for(int i =0; i < len-1; i++) {
-            if(str.charAt(i) != str.charAt(i+1)) {
+            if(c != str.charAt(i+1)) {
                 System.out.print(n);
                 n = 0;
                 c = str.charAt(i+1);

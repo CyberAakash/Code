@@ -12,19 +12,23 @@ public class StringXPattern {
         int rows = len, cols = len; // Number of rows and columns in the pattern
 
         while (row <= rows && col <= cols) {
-            if(col > cols-1) {
+            if (col > cols - 1) {
                 System.out.println();
                 row++;
                 col = 0;
             }
-            if(row == col || row+col == len-1) {
-                System.out.print(s.charAt(row));
-            }
-            else{
+            // if(row == col || row+col == len-1) {
+            // System.out.print(s.charAt(row));
+            // }
+            if (row == col && row != len / 2) {
+                System.out.print(s.charAt(row)+" ");
+            }else if (row + col == len - 1) {
+                System.out.print(s.charAt(col)+" ");
+            } else {
                 System.out.print("  ");
             }
             col++;
-            
+
         }
 
         // Method 2
