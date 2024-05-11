@@ -1,0 +1,14 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/aakashvnthgmail.com/Documents/CyberAakash/Code/System/TicTac/output/tictac'
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _initialize_board, symObjAddr: 0x0, symBinAddr: 0x100003570, symSize: 0x94 }
+  - { offsetInCU: 0x4D, offset: 0x4D, size: 0x8, addend: 0x0, symName: _board, symBinAddr: 0x100008000, symSize: 0x0 }
+  - { offsetInCU: 0x68, offset: 0x68, size: 0x8, addend: 0x0, symName: _initialize_board, symObjAddr: 0x0, symBinAddr: 0x100003570, symSize: 0x94 }
+  - { offsetInCU: 0x9A, offset: 0x9A, size: 0x8, addend: 0x0, symName: _display_board, symObjAddr: 0x94, symBinAddr: 0x100003604, symSize: 0xF0 }
+  - { offsetInCU: 0xBE, offset: 0xBE, size: 0x8, addend: 0x0, symName: _check_winner, symObjAddr: 0x184, symBinAddr: 0x1000036F4, symSize: 0x264 }
+  - { offsetInCU: 0xE6, offset: 0xE6, size: 0x8, addend: 0x0, symName: _make_move, symObjAddr: 0x3E8, symBinAddr: 0x100003958, symSize: 0xD8 }
+  - { offsetInCU: 0x12A, offset: 0x12A, size: 0x8, addend: 0x0, symName: _is_board_full, symObjAddr: 0x4C0, symBinAddr: 0x100003A30, symSize: 0xB4 }
+  - { offsetInCU: 0x160, offset: 0x160, size: 0x8, addend: 0x0, symName: _get_random_move, symObjAddr: 0x574, symBinAddr: 0x100003AE4, symSize: 0x1A0 }
+  - { offsetInCU: 0x1EA, offset: 0x1EA, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x714, symBinAddr: 0x100003C84, symSize: 0x208 }
+...

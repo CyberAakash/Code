@@ -6,6 +6,27 @@
   "configurations": [
     {
       "type": "java",
+      "name": "AlternatePositionSort",
+      "request": "launch",
+      "mainClass": "Zoho.newworld.AlternatePositionSort",
+      "projectName": "Code_1e757cba"
+    },
+    {
+      "type": "java",
+      "name": "TrapRainWater",
+      "request": "launch",
+      "mainClass": "Zoho.TrapRainWater",
+      "projectName": "Code_1e757cba"
+    },
+    {
+      "type": "java",
+      "name": "TicTacToe",
+      "request": "launch",
+      "mainClass": "System.TicTac.TicTacToe",
+      "projectName": "Code_1e757cba"
+    },
+    {
+      "type": "java",
       "name": "Permutation",
       "request": "launch",
       "mainClass": "Zoho.newworld.Permutation",

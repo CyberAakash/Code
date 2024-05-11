@@ -2,7 +2,7 @@ package Zoho.newworld;
 
 public class StringNCharPrint {
     public static void main(String[] args) {
-        String str = "a2bc5";
+        String str = "ca2bc5";
 
         int len = str.length();
         int n = 0;
