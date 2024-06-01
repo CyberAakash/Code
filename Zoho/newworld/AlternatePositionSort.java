@@ -65,3 +65,52 @@ public class AlternatePositionSort {
 
     // }
 }
+
+
+
+
+
+
+// OPTIMIZED VERSION
+// import java.util.Arrays;
+
+// public class Main {
+//     public static void main(String[] args) {
+//         int[] arr = new int[] { 1, 2, 3, 4, 5, 6, 7, 8 };
+//         System.out.println("Original Array: " + Arrays.toString(arr));
+
+//         // Sort even indexed elements in descending order
+//         sortSubArray(arr, 0, true);
+
+//         // Sort odd indexed elements in ascending order
+//         sortSubArray(arr, 1, false);
+
+//         System.out.println("Sorted Array: " + Arrays.toString(arr));
+//     }
+
+//     private static void sortSubArray(int[] arr, int startIndex, boolean descending) {
+//         // Collect the subarray
+//         int length = (arr.length - startIndex + 1) / 2;
+//         int[] subArray = new int[length];
+//         for (int i = 0; i < length; i++) {
+//             subArray[i] = arr[startIndex + 2 * i];
+//         }
+
+//         // Sort the subarray
+//         Arrays.sort(subArray);
+
+//         // Reverse the array if we need it in descending order
+//         if (descending) {
+//             for (int i = 0; i < length / 2; i++) {
+//                 int temp = subArray[i];
+//                 subArray[i] = subArray[length - 1 - i];
+//                 subArray[length - 1 - i] = temp;
+//             }
+//         }
+
+//         // Place sorted elements back to their original positions
+//         for (int i = 0; i < length; i++) {
+//             arr[startIndex + 2 * i] = subArray[i];
+//         }
+//     }
+// }

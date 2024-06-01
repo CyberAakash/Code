@@ -6,6 +6,104 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Zigzag",
+      "request": "launch",
+      "mainClass": "Zoho.newworld.Zigzag",
+      "projectName": "Code_18f5cb0"
+    },
+    {
+      "type": "java",
+      "name": "StringXPattern",
+      "request": "launch",
+      "mainClass": "Zoho.newworld.StringXPattern",
+      "projectName": "Code_18f5cb0"
+    },
+    {
+      "type": "java",
+      "name": "StringNCharPrint",
+      "request": "launch",
+      "mainClass": "Zoho.newworld.StringNCharPrint",
+      "projectName": "Code_18f5cb0"
+    },
+    {
+      "type": "java",
+      "name": "ReplaceRightMax",
+      "request": "launch",
+      "mainClass": "Zoho.newworld.ReplaceRightMax",
+      "projectName": "Code_18f5cb0"
+    },
+    {
+      "type": "java",
+      "name": "OddEvenSplit",
+      "request": "launch",
+      "mainClass": "Zoho.newworld.OddEvenSplit",
+      "projectName": "Code_18f5cb0"
+    },
+    {
+      "type": "java",
+      "name": "NCharSrtingPrint",
+      "request": "launch",
+      "mainClass": "Zoho.newworld.NCharSrtingPrint",
+      "projectName": "Code_18f5cb0"
+    },
+    {
+      "type": "java",
+      "name": "Frequency1toP",
+      "request": "launch",
+      "mainClass": "Zoho.newworld.Frequency1toP",
+      "projectName": "Code_18f5cb0"
+    },
+    {
+      "type": "java",
+      "name": "EquilibriumIndex",
+      "request": "launch",
+      "mainClass": "Zoho.newworld.EquilibriumIndex",
+      "projectName": "Code_18f5cb0"
+    },
+    {
+      "type": "java",
+      "name": "CheckPrime",
+      "request": "launch",
+      "mainClass": "Zoho.newworld.CheckPrime",
+      "projectName": "Code_18f5cb0"
+    },
+    {
+      "type": "java",
+      "name": "BikeTrip",
+      "request": "launch",
+      "mainClass": "Zoho.newworld.BikeTrip",
+      "projectName": "Code_18f5cb0"
+    },
+    {
+      "type": "java",
+      "name": "AlternateSort",
+      "request": "launch",
+      "mainClass": "Zoho.newworld.AlternateSort",
+      "projectName": "Code_18f5cb0"
+    },
+    {
+      "type": "java",
+      "name": "AlternatePositionSort",
+      "request": "launch",
+      "mainClass": "Zoho.newworld.AlternatePositionSort",
+      "projectName": "Code_18f5cb0"
+    },
+    {
+      "type": "java",
+      "name": "TV",
+      "request": "launch",
+      "mainClass": "TV",
+      "projectName": "Code_18f5cb0"
+    },
+    {
+      "type": "java",
+      "name": "Timer",
+      "request": "launch",
+      "mainClass": "Timer",
+      "projectName": "Code_18f5cb0"
+    },
+    {
+      "type": "java",
       "name": "AlternatePositionSort",
       "request": "launch",
       "mainClass": "Zoho.newworld.AlternatePositionSort",
