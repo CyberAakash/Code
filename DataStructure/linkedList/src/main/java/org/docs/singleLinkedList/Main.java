@@ -18,8 +18,9 @@ public class Main {
             System.out.println("---------- x 6. Insert Node at Front");
             System.out.println("---------- x 7. Delete Node at Position");
             System.out.println("---------- x 8. Delete Node at Middle");
-            System.out.println("---------- x 9. Print Node");
-            System.out.println("---------- x 10. Exit [ Press -1 ]");
+            System.out.println("---------- x 9. Reverse List");
+            System.out.println("---------- x 10. Print Node");
+            System.out.println("---------- x 11. Exit [ Press -1 ]");
             System.out.println("---------- x Choose your option: ");
             choice = sc.nextInt();
 
@@ -57,6 +58,10 @@ public class Main {
                     break;
 
                 case 9:
+                    reverseList(sc);
+                    break;
+
+                case 10:
                     displayList(sc);
                     break;
 
@@ -74,6 +79,23 @@ public class Main {
 
         } while(choice != -1);
         sc.close();
+    }
+
+    private static void reverseList(Scanner sc) {
+        Node curr = Node.head;
+
+        Node prev = null;
+        Node next = null;
+
+        while(curr != null) {
+            next = curr.next;
+            curr.next = prev;
+            prev = curr;
+            curr = next;
+        }
+
+        Node.head = prev;
+
     }
 
     private static void displayList(Scanner sc) {
